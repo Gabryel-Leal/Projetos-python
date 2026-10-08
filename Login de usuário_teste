@@ -1,0 +1,44 @@
+# Este projeto é um projeto de treino sobre como seria um sistema de login seguro contra ataque Brute Force
+
+
+meu_nome = "João"
+minha_idade = 20
+meu_nascimento = "15/04/2006"
+tentativas = 3
+
+while tentativas >= 0:
+   nome = input("escreva seu nome:").strip().lower()
+   while True:
+      try:
+         idade_usuario = int(input("sua idade:").strip())
+         break
+      except:
+         print("use apenas numeros!")
+         
+   while True:
+      try:
+         data = input("sua data de nascimento (DDMMAAAA):").strip()
+         data = data[:2] + "/" + data[2:4] + "/" + data[4:]
+         print(data)
+         break
+      except:
+         print("use apenas numeros!") 
+         
+   nascimento = data
+   idade = idade_usuario
+ 
+   if nome == meu_nome and idade == minha_idade and nascimento == meu_nascimento:
+       print("\nAcesso liberado")
+       break
+      
+   else:
+       print("\n Acesso negado \n")
+       tentativas -= 1
+       print("tentativas restantes:",tentativas,"\n")
+      
+   if tentativas == 0:
+       print("Tentativas expiradas, por segurança contate o suporte!")
+       exit()
+      
+      
+print("Você está dentro do sistema, Parabéns!!!")
