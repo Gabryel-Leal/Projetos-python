@@ -1,0 +1,31 @@
+# Este projeto se baseia em um jogo de adivinhação, criado para treinar minhas habilidades em Python.
+
+import random
+
+numero_secreto = random.randint(1, 15557)
+tentativas = 10
+
+print("🎮 JOGO: ADIVINHE O NÚMERO")
+print("Estou pensando em um número de 1 a 15557.")
+print("Você tem 10 tentativas!\n")
+
+while tentativas > 0:
+    print("Tentativas restantes:", tentativas)
+
+    chute = int(input("Digite seu palpite: "))
+
+    if chute == numero_secreto:
+        print("🟩🎉 PARABÉNS! Você acertou!✔🟩")
+        break
+
+    elif chute < numero_secreto:
+        print("⬆️ O número secreto é MAIOR que isso.\n")
+
+    else:
+        print("⬇️ O número secreto é MENOR que isso.\n")
+
+    tentativas -= 1
+
+if tentativas == 0:
+    print("😢 Você perdeu!")
+    print("O número secreto era:", numero_secreto)
