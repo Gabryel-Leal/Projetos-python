@@ -1,0 +1,14 @@
+# Este é um projeto bem básico sobre par e impar, criado para treinar minhas habilidades em Python.
+# você impoe um numero de 1 a 1000 ao sistema e ele te devolve se o número é par ou impar
+
+---
+
+número = int(input("Digite um numero de 1 a 1000:"))
+
+while número > 0 and número < 1000:
+    if número % 2 == 0:
+        print("Par")
+        break
+    else:
+        print("Impar")
+        break
