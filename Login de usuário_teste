@@ -1,16 +1,17 @@
-# Este projeto é um projeto de treino sobre como seria um sistema de login seguro contra ataque Brute Force
+# Este é um projeto de treinamento breve de como seria um sistema de login seguro contra ataques de Brute Force.
 
+# Simulação do banco de dados
 
-meu_nome = "João"
-minha_idade = 20
-meu_nascimento = "15/04/2006"
+nome = "João"
+idade = 20
+nascimento = "15/04/2006"
 tentativas = 3
 
 while tentativas >= 0:
-   nome = input("escreva seu nome:").strip().lower()
+   name_user = input("escreva seu nome:").strip().lower()
    while True:
       try:
-         idade_usuario = int(input("sua idade:").strip())
+         idade_user = int(input("sua idade:").strip())
          break
       except:
          print("use apenas numeros!")
@@ -24,10 +25,10 @@ while tentativas >= 0:
       except:
          print("use apenas numeros!") 
          
-   nascimento = data
-   idade = idade_usuario
+   nascimento_user = data
+   idade = idade_user
  
-   if nome == meu_nome and idade == minha_idade and nascimento == meu_nascimento:
+   if nome == name_user and idade == idade_user and nascimento == nascimento_user:
        print("\nAcesso liberado")
        break
       
@@ -42,3 +43,4 @@ while tentativas >= 0:
       
       
 print("Você está dentro do sistema, Parabéns!!!")
+
