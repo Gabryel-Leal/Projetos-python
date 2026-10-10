@@ -1,0 +1,25 @@
+
+# Este é um projeto simples de uma calculadora em Python.
+
+
+def calcular():   
+    num1 = int(input("digite o primeiro numero: "))
+    num2 = int(input("digite o segundo numero: "))
+    operacao = input("digite a operação que deseja: ")
+    
+    match operacao:
+        case "+":
+            resultado = num1 + num2 
+        case "-":
+            resultado = num1 - num2
+        case "*": 
+            resultado = num1 * num2
+        case "/": 
+            resultado = num1 / num2
+        case "**":
+            resultado = num1 ** num2
+      
+    print(f"o resultado é: {resultado}")
+
+while True: 
+    calcular()
