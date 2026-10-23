@@ -1,5 +1,17 @@
-# Este é um projeto bem básico sobre par e impar, criado para treinar minhas habilidades em Python.
-# você impoe um numero de 1 a 1000 ao sistema e ele te devolve se o número é par ou impar
+# Verificador de Números Pares e Ímpares em Python
+
+# Desenvolvimento de um programa em Python que identifica se um número inteiro informado pelo usuário 
+é par ou ímpar, considerando um intervalo numérico predefinido.
+
+# O projeto utiliza estruturas condicionais ("if/else") e o operador módulo ("%") para verificar o resto 
+da divisão por 2, determinando a paridade do número informado. Também aplica uma estrutura de repetição 
+("while") para estabelecer uma condição de execução baseada no intervalo definido.
+
+# A aplicação demonstra a utilização de operadores aritméticos, expressões lógicas e estruturas de controle 
+de fluxo na resolução de problemas simples por meio da programação.
+
+# Tecnologias e conceitos aplicados: Python, entrada e saída de dados, conversão de tipos, estruturas 
+condicionais, laços de repetição, operadores aritméticos e operadores lógicos.
 
 ---
 
