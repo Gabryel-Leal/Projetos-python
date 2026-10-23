@@ -1,4 +1,16 @@
-# Este projeto se baseia em um jogo de adivinhação, criado para treinar minhas habilidades em Python.
+# Jogo de Adivinhação em Python — Lógica e Controle de Fluxo
+
+# Desenvolvimento de um jogo interativo em Python no qual o usuário deve descobrir um número secreto gerado aleatoriamente, 
+dentro de um intervalo predefinido, com limite de 10 tentativas.
+
+# O projeto aplica conceitos fundamentais de lógica de programação, utilizando o módulo "random" para geração de números 
+aleatórios, estruturas condicionais ("if", "elif" e "else") para avaliar os palpites e o laço de repetição "while" 
+para controlar o fluxo do jogo. A aplicação também utiliza "break" para encerrar a execução quando o número correto é 
+encontrado e realiza o controle das tentativas restantes, fornecendo feedback ao usuário a cada interação.
+
+# Tecnologias e conceitos aplicados: Python, módulo "random", estruturas condicionais, laços de repetição, controle de 
+fluxo, entrada e saída de dados e lógica de programação.
+
 
 import random
 
