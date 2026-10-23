@@ -1,5 +1,16 @@
+# Calculadora em Python — Operações Aritméticas 
 
-# Este é um projeto simples de uma calculadora em Python.
+Desenvolvimento de uma calculadora interativa em Python, com foco na aplicação da lógica de programação, 
+estruturas condicionais e funções. O projeto permite realizar operações aritméticas básicas, como adição, 
+subtração, multiplicação, divisão e potenciação, utilizando a estrutura "match/case" para direcionar a 
+execução de acordo com a operação selecionada pelo usuário.
+
+A aplicação utiliza entrada de dados via terminal, processamento de valores numéricos e exibição dinâmica 
+dos resultados. O laço de repetição "while" permite executar a calculadora continuamente, reforçando 
+conceitos de controle de fluxo e reutilização de funções.
+
+Tecnologias e conceitos aplicados: Python, funções, entrada e saída de dados, estruturas de seleção ("match/case"), 
+laços de repetição ("while") e operações aritméticas.
 
 
 def calcular():   
