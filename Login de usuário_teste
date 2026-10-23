@@ -1,11 +1,25 @@
-# Este é um projeto de treinamento breve de como seria um sistema de login seguro contra ataques de Brute Force.
+# Simulação de Autenticação de Usuário em Python
 
-# Simulação do banco de dados
+# Desenvolvimento de uma aplicação em Python que simula um processo de autenticação de usuário a partir da comparação 
+de dados informados com informações previamente definidas, representando uma estrutura simplificada de banco de dados.
+
+# O projeto implementa validação de entradas, tratamento de exceções com "try/except", manipulação de strings e estruturas 
+de repetição para controlar o fluxo de autenticação. Também utiliza estruturas condicionais para verificar a correspondência 
+dos dados, limitar as tentativas de acesso e encerrar o processo após o esgotamento das tentativas permitidas.
+
+# A aplicação reforça conceitos fundamentais de lógica de programação, validação de dados e controle de acesso, servindo 
+como base para o desenvolvimento futuro de sistemas de autenticação mais robustos.
+
+# Tecnologias e conceitos aplicados: Python, estruturas condicionais, laços de repetição ("while"), tratamento de exceções, 
+manipulação de strings, validação de entradas e lógica de autenticação.
+
+# Simulação do banco de dados {
 
 nome = "João"
 idade = 20
 nascimento = "15/04/2006"
 tentativas = 3
+# }
 
 while tentativas >= 0:
    name_user = input("escreva seu nome:").strip().lower()
